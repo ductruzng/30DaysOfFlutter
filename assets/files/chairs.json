@@ -1,13 +1,6 @@
 {
     "products": [
-      {
-        "id": 0,
-        "title": "Amiral",
-        "name": "Chair",
-        "price": 85000,
-        "imageUrl": "https://pohjanmaan-prod.s3.amazonaws.com/uploads/product/product_image/317/amiral_1_labrador_1_main_image.png",
-        "description": "Individually bench-made by Scandinavian craftsmen. Seat Frame constructed of select SOLID SPRUCE with finger joints and no-zag springs (at least four per seat). Back parts constructed with Mortise & Tenon design for extraordinary durability. Exterior sides and back fully padded."
-      },
+     
       {
         "id": 1,
         "title": "Amiral",
@@ -38,54 +31,6 @@
         "name": "Multiseat",
         "price": 25000,
         "imageUrl": "https://pohjanmaan-prod.s3.amazonaws.com/uploads/product/product_image/5/arena6_multiseat_png_main_image.png",
-        "description": "мяу"
-      },
-      {
-        "id": 5,
-        "title": "Arena",
-        "name": "Rocking",
-        "price": 25000,
-        "imageUrl": "https://pohjanmaan-prod.s3.amazonaws.com/uploads/product/product_image/73/arena_rockingchair_1_main_image.png",
-        "description": "мяу"
-      },
-      {
-        "id": 6,
-        "title": "Ariel",
-        "name": "Chair",
-        "price": 78000,
-        "imageUrl": "https://pohjanmaan-prod.s3.amazonaws.com/uploads/product/product_image/324/ariel_1_main_image.png",
-        "description": "мяу"
-      },
-      {
-        "id": 7,
-        "title": "Ariel",
-        "name": "Reclainer",
-        "price": 78000,
-        "imageUrl": "https://pohjanmaan-prod.s3.amazonaws.com/uploads/product/product_image/323/arielrec_122_1_main_image.png",
-        "description": "мяу"
-      },
-      {
-        "id": 8,
-        "title": "Atlanta",
-        "name": "Reclainer",
-        "price": 56000,
-        "imageUrl": "https://pohjanmaan-prod.s3.amazonaws.com/uploads/product/product_image/6/atlanta_recliner_1_png_main_image.png",
-        "description": "мяу"
-      },
-      {
-        "id": 9,
-        "title": "Chic",
-        "name": "Chair",
-        "price": 37000,
-        "imageUrl": "https://pohjanmaan-prod.s3.amazonaws.com/uploads/product/product_image/487/chic_260615_05_main_image.png",
-        "description": "мяу"
-      },
-      {
-        "id": 10,
-        "title": "California",
-        "name": "Chair",
-        "price": 42000,
-        "imageUrl": "https://pohjanmaan-prod.s3.amazonaws.com/uploads/product/product_image/342/california_3_ml_nk_labrador26_main_image.png",
         "description": "мяу"
       },
       {
