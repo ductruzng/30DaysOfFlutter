@@ -3,8 +3,6 @@ import 'package:flutter_catalog/models/catalog.dart';
 import 'package:flutter_catalog/pages/home_detail_page.dart';
 
 import 'package:flutter_catalog/widgets/home_widgets/add_to_cart.dart';
-=======
->>>>>>> 06f65ed2a556ae076c9558970432d22cac37f228
 import 'package:flutter_catalog/widgets/home_widgets/catalog_image.dart';
 import 'package:flutter_catalog/widgets/theme.dart';
 import 'package:velocity_x/velocity_x.dart';
