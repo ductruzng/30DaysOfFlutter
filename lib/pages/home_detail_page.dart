@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_catalog/models/catalog.dart';
 import 'package:flutter_catalog/widgets/theme.dart';
@@ -11,11 +10,12 @@ class HomeDetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: MyTheme.creamColor,
-     
-      appBar: AppBar(),
+      backgroundColor: context.canvasColor,
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+      ),
       bottomNavigationBar: Container(
-        color: Colors.white,
+        color: context.cardColor,
         child: ButtonBar(
           alignment: MainAxisAlignment.spaceBetween,
           buttonPadding: Vx.mH8,
@@ -29,7 +29,7 @@ class HomeDetailPage extends StatelessWidget {
               ),
               style: ButtonStyle(
                   backgroundColor:
-                      MaterialStateProperty.all(MyTheme.darkbluishColor),
+                      MaterialStateProperty.all(MyTheme.darkBuishColor),
                   shape: MaterialStateProperty.all(StadiumBorder())),
             ).wh(130, 40)
           ],
@@ -50,10 +50,10 @@ class HomeDetailPage extends StatelessWidget {
               edge: VxEdge.top,
               child: Container(
                 width: context.screenWidth,
-                color: Colors.white,
+                color: context.cardColor,
                 child: Column(children: [
                   catalog.name.text.xl4
-                      .color(MyTheme.darkbluishColor)
+                      .color(context.accentColor)
                       .bold
                       .make(),
                   catalog.description.text

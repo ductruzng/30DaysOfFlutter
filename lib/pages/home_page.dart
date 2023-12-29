@@ -45,7 +45,7 @@ class _HomePageState extends State<HomePage> {
                 context, MaterialPageRoute(builder: (context) => CartPage()))
           },
           child: Icon(CupertinoIcons.cart).iconColor(Colors.white),
-          backgroundColor: MyTheme.darkbluishColor,
+          backgroundColor: MyTheme.darkBuishColor,
           shape: CircleBorder(),
         ),
         body: SafeArea(
